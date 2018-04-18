@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 - Fixed missing `commons-codec` dependency ([\#642](https://github.com/testcontainers/testcontainers-java/issues/642))
 - Fixed `HostPortWaitStrategy` throws `NumberFormatException` when port is exposed but not mapped ([\#640](https://github.com/testcontainers/testcontainers-java/issues/640))
 - Fixed log processing: multibyte unicode, linebreaks and ASCII color codes. Color codes can be turned on with `withRemoveAnsiCodes(false)` ([PR \#643](https://github.com/testcontainers/testcontainers-java/pull/643))
+- Add support for private repositories using docker credential stores/helpers (fixes [\#567](https://github.com/testcontainers/testcontainers-java/issues/567))
 
 ### Changed
 - Support multiple HTTP status codes for HttpWaitStrategy ([\#630](https://github.com/testcontainers/testcontainers-java/issues/630))
